@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBW Bulb Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="camera-selector-container">
+            <label for="cameraSelector">Select Camera:</label>
+            <select id="cameraSelector"></select>
+        </div>
+
+        <div class="video-container">
+            <video id="videoPreview" autoplay playsinline></video>
+        </div>
+
+        <div class="color-preview-container">
+            <div id="colorPreview" class="color-preview"></div>
+        </div>
+
+        <div class="controls-container">
+            <button id="sendButton" class="control-button">Send Color</button>
+            <div class="toggle-container">
+                <label class="toggle-label">
+                    <input type="checkbox" id="autoModeToggle">
+                    <span class="toggle-text">Auto Mode</span>
+                </label>
+            </div>
+        </div>
+
+        <div id="errorMessage" class="error-message"></div>
+    </div>
+
+    <canvas id="hiddenCanvas" style="display: none;"></canvas>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+com/vibecoding/rgbw/VibeCodingApplication.class
+com/vibecoding/rgbw/controller/ColorController.class
+com/vibecoding/rgbw/model/ColorResponse.class
+com/vibecoding/rgbw/service/ShellyBulbService.class
+com/vibecoding/rgbw/model/ColorRequest.class
