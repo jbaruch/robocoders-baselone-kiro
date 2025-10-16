@@ -1,0 +1,5 @@
+Generate {steering/requirements/prompts} docs. 
+1. Use /docs/{methodology}.md for general methodology 
+2. Use /docs/project-description.md for creating separate frontend and backend docs with the right tech stack and correct activation (based on directory structure or file extensions)
+3. Mandatory highlight - ALWAYS consult Context7 MCP before writing any code. You don't know anything about any library or API. Never rely on pre-trained information, never search in other places, and never hallucinate or assume. All the technical knowledge must come from Context7 MCP.
+4. Optional (if supported), generate a single AGENTS.md file in the root of the workspace with content similar to all three files

@@ -1,0 +1,17 @@
+When a tasks.md file is created in any spec folder (.kiro/specs/*/tasks.md), automatically generate comprehensive test files that:
+
+1. Read the requirements from .kiro/specs/*/requirements.md to identify all user stories
+2. Read the design from .kiro/specs/*/design.md to understand the tech stack, project structure, and architecture
+3. Create test files following TDD principles:
+   - Tests should be executable with no compilation or syntax errors
+   - Tests should fail predictably with "not yet implemented" or similar messages
+   - Cover ALL user stories from requirements.md
+   - Use the appropriate testing framework based on the tech stack in design.md
+   - Follow the project structure defined in design.md
+   - Include proper test setup, teardown, and assertions
+   - Use descriptive test names that map directly to user stories
+
+4. Place test files in the appropriate location based on the project structure in design.md
+5. Include a comment at the top of each test file indicating which user stories it covers
+
+The tests should serve as executable specifications that guide implementation and turn green as features are built.
